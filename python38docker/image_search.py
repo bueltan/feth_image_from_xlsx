@@ -24,7 +24,7 @@ def get_url_with(list_source:List[str], params:Dict[str, Any]) -> Dict[int, List
     for value in list_source:
         cleaned_value: str = clean_string_value(value=value)
         if last_string_parameter != cleaned_value and cleaned_value != "": 
-            params['q'] = clean_string_value
+            params['q'] = cleaned_value
             last_string_parameter = cleaned_value
             dict_response:Dict = get_dic_response(params=params)
             result_value_list_dict:List = dict_response["value"]
