@@ -1,7 +1,7 @@
 
 PARAMS = {'mkt': 'en-US', 'aspect':'Square', 'count':5,  }
 # Add your Bing Search V7 subscription key and endpoint to your environment variables.
-SUBSCRIPTION_KEY = "0a98f08030334a0fb14d1c6f1a957834"
+SUBSCRIPTION_KEY = ""
 ENDPOINT = "https://api.bing.microsoft.com/v7.0/images/search/"
 HEADER = { 'Ocp-Apim-Subscription-Key': SUBSCRIPTION_KEY }
 # info about Search V7
