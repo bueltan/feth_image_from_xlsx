@@ -1,0 +1,3 @@
+[submodule "graphql_auth"]
+	path = graphql_auth
+	url = https://github.com/bueltan/flask_graphql_auth

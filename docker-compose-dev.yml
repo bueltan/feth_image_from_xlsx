@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+  python38docker:
+    init: true
+    restart: unless-stopped
+    build: 
+      context: ./python38docker
+      dockerfile: Dockerfile
+    command: tail -F anything
+    environment:
+      DEV: 'True'
+    network_mode: 'host'
+    volumes:
+      - ./python38docker:/app
+
+ 

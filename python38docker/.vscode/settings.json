@@ -1,0 +1,6 @@
+{
+
+    "jupyter.debugJustMyCode": false,
+    "python.formatting.provider": "black"
+
+}
